@@ -44,11 +44,13 @@ export default function Contact() {
             </tr>
             <tr>
               <th className="text-left p-2">メール</th>
-              <input
-                type="email"
-                name="メール"
-                className="form-input border-2 w-full"
-              />
+              <td className="p-2">
+                <input
+                  type="email"
+                  name="メール"
+                  className="form-input border-2 w-full"
+                />
+              </td>
             </tr>
             <tr>
               <th className="text-left p-2">電話</th>
@@ -56,6 +58,16 @@ export default function Contact() {
                 <input
                   type="tel"
                   name="電話"
+                  className="form-input border-2 w-full"
+                />
+              </td>
+            </tr>
+            <tr>
+              <th className="text-left p-2">生年月日</th>
+              <td className="p-2">
+                <input
+                  type="birthday"
+                  name="生年月日"
                   className="form-input border-2 w-full"
                 />
               </td>
